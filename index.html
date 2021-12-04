@@ -35,7 +35,7 @@
     <main>
         <!-- банер    -->
         <section class="banner">
-            <h1>
+            <h1 class="main-header">
                 Эффективные решения<br> для вашего бизнеса
             </h1>
             <div class="button div">
@@ -44,8 +44,9 @@
             </div>
         </section>
         <!-- особливості -->
-        <section class="container">
-        <ul class="abilities list">
+        <section class="special">
+        <div  class="containers">
+              <ul class="abilities list">
             <li class="abilities"><h3 class="abilities-item">Внимание к деталям</h3>
                 <p class="abilities-description"> Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
             </li>
@@ -58,33 +59,36 @@
             <li class="abilities"><h3 class="abilities-item">Современные технологии</h3>
                 <p class="abilities-description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
             </li>
-        
         </ul>
+        </div>
         </section>
         <!-- чим ми займаємось -->
-        <section class="container examples">
+        <section class="section">
+            <div class="container examples">
         <h2>Чем мы занимаемся</h2>
         <ul class="list examples">
             <li class="example"><img src="./images/pc.jpg" width="370" alt="PC"></li>
             <li class="example"><img src="./images/phone.jpg" width="370" alt="Phone"></li>
             <li class="example"><img src="./images/tablet.jpg" width="370" alt="Tablet"></li>
         </ul>
+        </div>
         </section>
         <!-- наша команда -->
-        <section  class="container examples">
+        <section class="section comand">
+            <div class="container examples">
         <h2>Наша команда</h2>
           <ul class="list workers">
-            <li class="worker"><img src="./images/igor_demjanenko.jpg"  width="270" alt="photo_igor_demjanenko"> <h3 class="member">Игорь Демьяненко</h3> <p class="position">Product Designer</p></li>
-            <li class="worker"><img src="./images/olga_repina.jpg" width="270" alt="photo_olga_repina"> <h3 class="member">Ольга Репина</h3> <p class="position">Frontend Developer</p></li>
-            <li class="worker"><img src="./images/nikolaj_tarasov.jpg" width="270" alt="photo_nikolaj_tarasov"> <h3 class="member">Николай Тарасов</h3> <p class="position">Marketing</p></li>
-            <li class="worker"><img src="./images/mihail_ermakov.jpg" width="270" alt="photo_mihail_ermakov"> <h3 class="member">Михаил Ермаков</h3> <p class="position">UI Designer</p></li>
+            <li class="worker"><img src="./images/igor_demjanenko.jpg"  width="270" alt="photo_igor_demjanenko"> <div class="worker-box"><h3 class="member">Игорь Демьяненко</h3> <p class="position">Product Designer</p></div></li>
+            <li class="worker"><img src="./images/olga_repina.jpg" width="270" alt="photo_olga_repina"> <div class="worker-box"><h3 class="member">Ольга Репина</h3> <p class="position">Frontend Developer</p></div></li>
+            <li class="worker"><img src="./images/nikolaj_tarasov.jpg" width="270" alt="photo_nikolaj_tarasov"> <div class="worker-box"><h3 class="member">Николай Тарасов</h3> <p class="position">Marketing</p></div></li>
+            <li class="worker"><img src="./images/mihail_ermakov.jpg" width="270" alt="photo_mihail_ermakov"> <div class="worker-box"><h3 class="member">Михаил Ермаков</h3> <p class="position">UI Designer</p></div></li>
           </ul>
+        </div>
         </section>
-
     </main>
     <!-- підвал -->
-    <footer class="footer"> 
-        <section class="container">
+    <footer class="footer">    
+            <div  class="container">
          <a class="logo" href="./index.html"><span class="design">Web</span>Studio</a>
           <address>
             г. Киев, пр-т Леси Украинки, 26
@@ -93,7 +97,7 @@
             <li class="list-item"><a class="fmail-to" href="mailto:info@devstudio.com" >info@devstudio.com</a> </li>
             <li class="list-item"><a class="fphone" href="tel:+380961111111"  >+38 096 111 11 11</a> </li>
         </ul>
-        </section>
+            </div>
     </footer>
 </body>
 </html>
